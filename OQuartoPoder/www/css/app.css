@@ -1,0 +1,209 @@
+/*
+ * Please see the included README.md file for license terms and conditions.
+ */
+
+
+/* This file is completely optional and not required. */
+/* Note the reference that includes it in the index.html file. */
+
+
+/* Disable certain interactions on touch devices */
+/* SOURCE: https://github.com/ftlabs/fastclick/blob/master/examples/input.html */
+/* LICENSE: https://github.com/ftlabs/fastclick/blob/master/LICENSE */
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+html {
+    -ms-touch-action: pan-x ;
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+body {
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+   
+}
+
+/* allow copy-paste */
+input, textarea  {
+    -webkit-user-select: text ; -moz-user-select: text ; -ms-user-select: text ; user-select: text ;
+}
+
+body {
+    /* margin: 0.5rem ; */
+    background: white ;
+    color: black ;
+}
+.corpadrao{
+    color: #5CB85C;
+}
+.backpadrao{
+    background-color: #5CB85C;
+}
+.textobranco{
+    color: #fff;
+}
+.painelnome{
+    
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #5CB85C;
+     color: #fff;
+}
+.topo5{
+	margin-top: 5px;
+}
+.topo10{
+	margin-top: 10px;
+}
+.topo20{
+	margin-top: 20px;
+}
+.topo30{
+	margin-top: 30px;
+}
+.topo40{
+	margin-top: 40px;
+}
+.topo50{
+	margin-top: 50px;
+}
+.topo60{
+	margin-top: 60px;
+}
+
+.bottom5{
+	margin-bottom: 5px;
+}
+.bottom10{
+	margin-bottom: 10px;
+}
+.bottom20{
+	margin-bottom: 20px;
+}
+.bottom30{
+	margin-bottom: 30px;
+}
+.bottom40{
+	margin-bottom: 40px;
+}
+.bottom50{
+	margin-bottom: 50px;
+}
+.bottom60{
+	margin-bottom: 60px;
+}
+
+.panel-login {
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #029f5b;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
+..nvmenudrop{
+    width: 100% !important;
+    border-radius: 0px;
+}
+.nvmenudrop > li{
+width: 100% !important;
+}
